@@ -15,7 +15,7 @@ export default function MoleContainer(props) {
     let displayMole = theMole ? <Mole setScore={props.setScore} toggle={setTheMole} moleBop={moleBop} /> : <EmptySlot toggle={setTheMole} />
     
     return (
-        <div style={{'display': 'inline-block', 'width': '30vw'}}>
+        <div style={{'display': 'inline-block', 'width': '30vw', 'backgroundColor': "beige"}}>
             {displayMole}
         </div>
     )

@@ -18,9 +18,9 @@ export default function App() {
     )
   }
   return (
-    <div className="App">
+    <div className="App" style={{'textAlign': 'center', 'backgroundColor': 'red'}}>
       <h1>React-a-Mole!</h1>
-      {score}
+      <div style={{'color': 'white', 'backgroundColor': 'black', 'fontSize': '46px', 'border': '1px solid black', 'borderRadius': '50%'}}>{score}</div>
       {createMoleHill()}
     </div>
   );
